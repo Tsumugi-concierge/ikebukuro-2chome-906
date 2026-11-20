@@ -1,0 +1,12 @@
+/* Language switcher and visibility rules */
+.lang-switcher{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;padding:10px 14px;margin:8px 16px 6px;background:rgba(255,255,255,.65);border:1px solid rgba(0,0,0,.06);border-radius:999px;box-shadow:0 2px 10px rgba(0,0,0,.06)}
+.lang-switcher .lang-btn{border:1.5px solid rgba(0,0,0,.08);background:#fff;border-radius:999px;padding:6px 10px;font-family:inherit;font-size:.72rem;font-weight:900;color:#3a6030;cursor:pointer;transition:all .2s}
+.lang-switcher .lang-btn.active{background:#5ec43a;border-color:#5ec43a;color:#fff}
+.lang-switcher .lang-btn:not(.active):hover{border-color:#5ec43a;color:#5ec43a}
+
+.lang-en,.lang-ja,.lang-zh,.lang-ko,.lang-fr,.lang-es{display:none !important}
+[data-lang="en"] .lang-en,[data-lang="ja"] .lang-ja,[data-lang="zh"] .lang-zh,[data-lang="ko"] .lang-ko,[data-lang="fr"] .lang-fr,[data-lang="es"] .lang-es{display:initial !important}
+
+/* support existing pl-en/pl-ja on top page */
+[data-lang] .pl-en,[data-lang] .pl-ja{display:none !important}
+[data-lang="en"] .pl-en,[data-lang="ja"] .pl-ja{display:initial !important}

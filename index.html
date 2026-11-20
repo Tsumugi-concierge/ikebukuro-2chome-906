@@ -85,33 +85,75 @@
     </div>
     <div class="wifi-rows">
         <button class="wifi-row" onclick="copyWifi(this, 'TP-Link_076B_5G')" aria-label="Copy network name">
-            <span class="wifi-row-label">Network</span>
+            <span class="wifi-row-label">
+                <span class="lang-en">Network</span>
+                <span class="lang-ja">ネットワーク</span>
+                <span class="lang-zh">网络名称</span>
+                <span class="lang-ko">네트워크</span>
+                <span class="lang-fr">Réseau</span>
+                <span class="lang-es">Red</span>
+            </span>
             <span class="wifi-row-val">TP-Link_076B_5G</span>
             <span class="wifi-row-action" aria-hidden="true">⧉</span>
         </button>
         <button class="wifi-row" onclick="copyWifi(this, '40110981')" aria-label="Copy password">
-            <span class="wifi-row-label">Password</span>
+            <span class="wifi-row-label">
+                <span class="lang-en">Password</span>
+                <span class="lang-ja">パスワード</span>
+                <span class="lang-zh">密码</span>
+                <span class="lang-ko">비밀번호</span>
+                <span class="lang-fr">Mot de passe</span>
+                <span class="lang-es">Contraseña</span>
+            </span>
             <span class="wifi-row-val">40110981</span>
             <span class="wifi-row-action" aria-hidden="true">⧉</span>
         </button>
     </div>
     <div class="wifi-qr" id="wifiQr">
         <img id="wifiQrImg" alt="Wi-Fi QR code" width="200" height="200">
-        <p class="wifi-qr-hint">Scan with your camera to connect</p>
+        <p class="wifi-qr-hint">
+            <span class="lang-en">Scan with your camera to connect</span>
+            <span class="lang-ja">カメラで読み取って接続</span>
+            <span class="lang-zh">用相机扫码即可连接</span>
+            <span class="lang-ko">카메라로 스캔하여 연결</span>
+            <span class="lang-fr">Scannez avec l’appareil photo pour vous connecter</span>
+            <span class="lang-es">Escanee con la cámara para conectarse</span>
+        </p>
     </div>
 </section>
-<nav class="menu" aria-label="Guest menu"><div class="menu-group"><div class="menu-group-head"><span class="menu-group-title">Arriving</span><span class="menu-group-line"></span></div><div class="btn-grid"><a href="access/" class="pl-btn"><span class="pl-icon-wrap"><span class="pl-icon" aria-hidden="true">🏠</span></span><span class="pl-en">Route to Accommodations</span><span class="pl-ja">宿泊施設へのルート</span></a>
-<a href="taxi/" class="pl-btn"><span class="pl-icon-wrap"><span class="pl-icon" aria-hidden="true">🚕</span></span><span class="pl-en">By Taxi</span><span class="pl-ja">タクシーをご利用の場合</span></a>
-<a href="how-to-open/" class="pl-btn"><span class="pl-icon-wrap"><span class="pl-icon" aria-hidden="true">🔑</span></span><span class="pl-en">How to Open</span><span class="pl-ja">鍵の開け方</span></a>
-<a href="parking/" class="pl-btn"><span class="pl-icon-wrap"><span class="pl-icon" aria-hidden="true">🚗</span></span><span class="pl-en">Parking</span><span class="pl-ja">駐車場情報</span></a></div></div>
-<div class="menu-group"><div class="menu-group-head"><span class="menu-group-title">Inside the Home</span><span class="menu-group-line"></span></div><div class="btn-grid"><a href="house-rules/" class="pl-btn"><span class="pl-icon-wrap"><span class="pl-icon" aria-hidden="true">📋</span></span><span class="pl-en">House Rules</span><span class="pl-ja">ハウスルール</span></a>
-<a href="equipment/" class="pl-btn"><span class="pl-icon-wrap"><span class="pl-icon" aria-hidden="true">🛠️</span></span><span class="pl-en">Equipment</span><span class="pl-ja">設備について</span></a>
-<a href="laundry/" class="pl-btn"><span class="pl-icon-wrap"><span class="pl-icon" aria-hidden="true">🫧</span></span><span class="pl-en">Laundry</span><span class="pl-ja">洗濯機の使い方</span></a>
-<a href="trash/" class="pl-btn"><span class="pl-icon-wrap"><span class="pl-icon" aria-hidden="true">🗑️</span></span><span class="pl-en">Trash</span><span class="pl-ja">ゴミの出し方</span></a></div></div>
-<div class="menu-group"><div class="menu-group-head"><span class="menu-group-title">Help & Neighborhood</span><span class="menu-group-line"></span></div><div class="btn-grid"><a href="nearby-shops/" class="pl-btn"><span class="pl-icon-wrap"><span class="pl-icon" aria-hidden="true">🗺️</span></span><span class="pl-en">Nearby Shops</span><span class="pl-ja">近隣のお店情報</span></a>
-<a href="circuit-breaker/" class="pl-btn"><span class="pl-icon-wrap"><span class="pl-icon" aria-hidden="true">⚡</span></span><span class="pl-en">Circuit Breaker</span><span class="pl-ja">ブレーカーについて</span></a>
-<a href="gas-reset/" class="pl-btn"><span class="pl-icon-wrap"><span class="pl-icon" aria-hidden="true">🔥</span></span><span class="pl-en">Gas Reset</span><span class="pl-ja">ガスメーター復帰</span></a>
-<a href="emergency/" class="pl-btn"><span class="pl-icon-wrap"><span class="pl-icon" aria-hidden="true">📞</span></span><span class="pl-en">Emergency</span><span class="pl-ja">緊急時の連絡</span></a></div></div></nav>
+<nav class="menu" aria-label="Guest menu"><div class="menu-group"><div class="menu-group-head"><span class="menu-group-title">
+    <span class="lang-en">Arriving</span>
+    <span class="lang-ja">到着</span>
+    <span class="lang-zh">抵达</span>
+    <span class="lang-ko">도착</span>
+    <span class="lang-fr">Arrivée</span>
+    <span class="lang-es">Llegada</span>
+  </span><span class="menu-group-line"></span></div><div class="btn-grid"><a href="access/" class="pl-btn"><span class="pl-icon-wrap"><span class="pl-icon" aria-hidden="true">🏠</span></span><span class="pl-en lang-en">Route to Accommodations</span><span class="pl-ja lang-ja">宿泊施設へのルート</span><span class="lang-zh">住宿路线</span><span class="lang-ko">숙소까지 길찾기</span><span class="lang-fr">Itinéraire vers le logement</span><span class="lang-es">Ruta al alojamiento</span></a>
+<a href="taxi/" class="pl-btn"><span class="pl-icon-wrap"><span class="pl-icon" aria-hidden="true">🚕</span></span><span class="pl-en lang-en">By Taxi</span><span class="pl-ja lang-ja">タクシーをご利用の場合</span><span class="lang-zh">乘坐出租车</span><span class="lang-ko">택시 이용</span><span class="lang-fr">En taxi</span><span class="lang-es">En taxi</span></a>
+<a href="how-to-open/" class="pl-btn"><span class="pl-icon-wrap"><span class="pl-icon" aria-hidden="true">🔑</span></span><span class="pl-en lang-en">How to Open</span><span class="pl-ja lang-ja">鍵の開け方</span><span class="lang-zh">开门方法</span><span class="lang-ko">문 여는 방법</span><span class="lang-fr">Comment ouvrir</span><span class="lang-es">Cómo abrir</span></a>
+<a href="parking/" class="pl-btn"><span class="pl-icon-wrap"><span class="pl-icon" aria-hidden="true">🚗</span></span><span class="pl-en lang-en">Parking</span><span class="pl-ja lang-ja">駐車場情報</span><span class="lang-zh">停车信息</span><span class="lang-ko">주차 안내</span><span class="lang-fr">Parking</span><span class="lang-es">Estacionamiento</span></a></div></div>
+<div class="menu-group"><div class="menu-group-head"><span class="menu-group-title">
+    <span class="lang-en">Inside the Home</span>
+    <span class="lang-ja">室内案内</span>
+    <span class="lang-zh">室内指南</span>
+    <span class="lang-ko">집안 안내</span>
+    <span class="lang-fr">À l’intérieur</span>
+    <span class="lang-es">Dentro de la casa</span>
+  </span><span class="menu-group-line"></span></div><div class="btn-grid"><a href="house-rules/" class="pl-btn"><span class="pl-icon-wrap"><span class="pl-icon" aria-hidden="true">📋</span></span><span class="pl-en lang-en">House Rules</span><span class="pl-ja lang-ja">ハウスルール</span><span class="lang-zh">住宿须知</span><span class="lang-ko">하우스룰</span><span class="lang-fr">Règlement intérieur</span><span class="lang-es">Normas de la casa</span></a>
+<a href="equipment/" class="pl-btn"><span class="pl-icon-wrap"><span class="pl-icon" aria-hidden="true">🛠️</span></span><span class="pl-en lang-en">Equipment</span><span class="pl-ja lang-ja">設備について</span><span class="lang-zh">设备指南</span><span class="lang-ko">비치품 안내</span><span class="lang-fr">Équipements</span><span class="lang-es">Equipamiento</span></a>
+<a href="laundry/" class="pl-btn"><span class="pl-icon-wrap"><span class="pl-icon" aria-hidden="true">🫧</span></span><span class="pl-en lang-en">Laundry</span><span class="pl-ja lang-ja">洗濯機の使い方</span><span class="lang-zh">洗衣机使用</span><span class="lang-ko">세탁 사용법</span><span class="lang-fr">Laverie</span><span class="lang-es">Lavandería</span></a>
+<a href="trash/" class="pl-btn"><span class="pl-icon-wrap"><span class="pl-icon" aria-hidden="true">🗑️</span></span><span class="pl-en lang-en">Trash</span><span class="pl-ja lang-ja">ゴミの出し方</span><span class="lang-zh">垃圾处理</span><span class="lang-ko">쓰레기 배출</span><span class="lang-fr">Ordures</span><span class="lang-es">Basura</span></a></div></div>
+<div class="menu-group"><div class="menu-group-head"><span class="menu-group-title">
+    <span class="lang-en">Help & Neighborhood</span>
+    <span class="lang-ja">サポート・周辺情報</span>
+    <span class="lang-zh">帮助与周边</span>
+    <span class="lang-ko">도움말·근처</span>
+    <span class="lang-fr">Aide & quartier</span>
+    <span class="lang-es">Ayuda y vecindario</span>
+  </span><span class="menu-group-line"></span></div><div class="btn-grid"><a href="nearby-shops/" class="pl-btn"><span class="pl-icon-wrap"><span class="pl-icon" aria-hidden="true">🗺️</span></span><span class="pl-en lang-en">Nearby Shops</span><span class="pl-ja lang-ja">近隣のお店情報</span><span class="lang-zh">附近商店</span><span class="lang-ko">주변 상점</span><span class="lang-fr">Commerces à proximité</span><span class="lang-es">Tiendas cercanas</span></a>
+<a href="circuit-breaker/" class="pl-btn"><span class="pl-icon-wrap"><span class="pl-icon" aria-hidden="true">⚡</span></span><span class="pl-en lang-en">Circuit Breaker</span><span class="pl-ja lang-ja">ブレーカーについて</span><span class="lang-zh">配电开关</span><span class="lang-ko">차단기 안내</span><span class="lang-fr">Disjoncteur</span><span class="lang-es">Interruptor general</span></a>
+<a href="gas-reset/" class="pl-btn"><span class="pl-icon-wrap"><span class="pl-icon" aria-hidden="true">🔥</span></span><span class="pl-en lang-en">Gas Reset</span><span class="pl-ja lang-ja">ガスメーター復帰</span><span class="lang-zh">燃气复位</span><span class="lang-ko">가스 복구</span><span class="lang-fr">Réinitialiser le gaz</span><span class="lang-es">Reinicio del gas</span></a>
+<a href="emergency/" class="pl-btn"><span class="pl-icon-wrap"><span class="pl-icon" aria-hidden="true">📞</span></span><span class="pl-en lang-en">Emergency</span><span class="pl-ja lang-ja">緊急時の連絡</span><span class="lang-zh">紧急联系</span><span class="lang-ko">비상 연락</span><span class="lang-fr">Urgence</span><span class="lang-es">Emergencia</span></a></div></div></nav>
 <section class="chat-section" aria-labelledby="chat-title">
     <div class="chat-box">
         <div class="chat-header">
@@ -263,6 +305,7 @@ function renderQR() {
     qrRendered = true;
 }
 </script>
+  <script src="assets/i18n.js" defer></script>
   <script src="assets/cute-pack.js" defer></script>
 </body>
 </html>
